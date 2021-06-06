@@ -1,0 +1,50 @@
+.newsletter {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    background-color: $smokyblack;
+    font-family: $oldstandardtt;
+    color: $white;
+    float: left;
+    width: 60%;
+    height: 200px;
+    &__title {
+        font-size: $x-large;
+        padding-top: 1.5rem;
+    }
+
+    &__mail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__label {
+        padding-bottom: 1rem;
+    }
+
+}
+
+.subscribe{
+    background-color: $white;
+    width: 10%;
+    height: 200px;
+    float: left;
+    
+    &__stitle {
+        color: $smokyblack;
+        font-size: $medium;
+        font-weight: $bold;
+        transform: rotate(90deg);
+        position: absolute;
+        right: 20px;
+        bottom: 80px;
+        
+    }
+
+}
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+

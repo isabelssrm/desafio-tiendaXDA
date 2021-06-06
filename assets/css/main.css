@@ -1,3 +1,208 @@
+/* abstracts */
+/* color scheme */
+/* tipography */
+/*font family*/
+/* font weight */
+/* font size */
+/* Screen sizes */
+/* vendors */
+/* base */
+body {
+  margin: 0;
+  padding: 0;
+}
 
+/* layout */
+.navigation {
+  position: relative;
+}
+
+.navigation__logo {
+  position: absolute;
+  font-family: "Old Standard TT", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #0c0910;
+  width: 61.78px;
+  height: 61.78px;
+  text-align: center;
+}
+
+.navigation__xda {
+  position: absolute;
+  top: 0.9em;
+  left: 0.4em;
+}
+
+.collapsible {
+  text-align: right;
+}
+.collapsible label {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1.5em;
+  font-size: 1.8rem;
+}
+
+#menu {
+  display: none;
+}
+
+input:checked ~ .navigation__container {
+  max-height: 100%;
+}
+
+.navigation__container {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation__list {
+  list-style-type: none;
+}
+
+.navigation__item a {
+  display: block;
+  text-align: left;
+  padding: 0.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0c0910;
+  text-decoration: none;
+}
+.navigation__item a:hover {
+  color: #646266;
+}
+
+@media only screen and (min-width: 992px) {
+  .collapsible label {
+    display: none;
+  }
+
+  .navigation__container {
+    max-height: 100%;
+    padding: 0.5em 3em 0.5em 0;
+    overflow: visible;
+  }
+
+  .navigation__list {
+    display: flex;
+    justify-content: flex-end;
+    margin: inherit;
+    padding: inherit;
+  }
+
+  .navigation__item a {
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .navigation__logo {
+    width: 67px;
+    height: 67px;
+  }
+}
+.main {
+  margin-bottom: 1.5rem;
+}
+
+.hero {
+  height: 15rem;
+  width: 100%;
+}
+
+.main__hero {
+  background: url("../img/imagen1.png");
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.info__title {
+  font-family: "Old Standard TT", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
+.info__content {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5rem;
+  color: #646266;
+}
+
+.newsletter {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  background-color: #0c0910;
+  font-family: "Old Standard TT", serif;
+  color: #FFF;
+  float: left;
+  width: 60%;
+  height: 200px;
+}
+.newsletter__title {
+  font-size: 20px;
+  padding-top: 1.5rem;
+}
+.newsletter__mail {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter__label {
+  padding-bottom: 1rem;
+}
+
+.subscribe {
+  background-color: #FFF;
+  width: 10%;
+  height: 200px;
+  float: left;
+}
+.subscribe__stitle {
+  color: #0c0910;
+  font-size: 16px;
+  font-weight: 700;
+  transform: rotate(90deg);
+  position: absolute;
+  right: 20px;
+  bottom: 80px;
+}
+
+.footer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* components */
+.button {
+  background-color: #FFF;
+  padding: 0.4rem;
+  width: 120px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border: 2px solid #646266;
+}
+
+.input {
+  height: 30px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #0c0910;
+}
+
+/* pages */
+/* themes */
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+.main {
+    margin-bottom: 1.5rem;
+}
+
+.hero {
+    height: 15rem;
+    width: 100%;
+}
+
+
+.main__hero {
+    background: url('../img/imagen1.png');
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.info {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+    &__title {
+    font-family: $oldstandardtt;
+    text-transform: uppercase;
+    font-weight: $bold;
+    font-size: $xx-large;
+    }
+    &__content {
+     font-family: $raleway;
+     line-height: 1.5rem;
+     color: $granitegray;
+    }
+}

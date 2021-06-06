@@ -8,49 +8,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font awesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Tienda XDA</title>
 </head>
 <body>
-    <!--navigation-->
-    <nav class="navigation">
-        <div class="navigation__logo">XDA</div>
-        <div class="navigation__menu">
-            <a class="navigation__hamburger">
-                <!--Poner icono hamburguesa font awesom-->
-            </a>
-            <a class="navigation__item" href="#">Mujer</a>
-            <a class="navigation__item" href="#">Hombre</a>
-            <a class="navigation__item" href="#">Accesorios</a>
-            <a class="navigation__item" href="#">Blog</a>
+    <!-- Header -->
+    <header class="header">
+    <!-- Navigation -->
+    <nav class="navigation row">
+        <div class="navigation__logo">
+            <div class="navigation__xda">XDA</div>
+        </div>
+        <div class="collapsible col-xs-12">
+            <input type="checkbox" id="menu">
+            <label for="menu"><i class="fas fa-bars"></i></label>
+            <div class="navigation__container">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#">Mujer</a></li>
+                    <li class="navigation__item"><a href="#">Hombre</a></li>
+                    <li class="navigation__item"><a href="#">Accesorios</a></li>
+                    <li class="navigation__item"><a href="#">Blog</a></li>
+                </ul>   
+            </div>
         </div>
     </nav>
+    </header>
 
     <!--main-->
     <main class="main">
-        <header class="header"></header>
+        <div class="hero">
+           <header class="main__hero"></header> 
+        </div>
         <div class="info">
-            <h1 class="info__title">Lorem ipsum dolor sit amet</h1>
+            <h1 class="info__title">Lorem ipsum dolor sit</h1>
         
             <div class="info__content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet fugit sunt ullam aspernatur magnam corporis culpa, rerum omnis perferendis itaque? Magni possimus quis, id sed iure ullam nostrum? Voluptatibus! lor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet fugit sunt ullam aspernatur magnam corporis culpa, rerum omnis perferendis itaque?</p>
                 <button class="button">Ir a tienda</button>
             </div>
         </div>
     </main>
 
     <!--footer-->
-    <footer class="newsletter">
-        <div class="newsletter__form">
-            <h1 class="newsletter__title">Newslette</h1>
+    <footer class="footer">
+        <div class="newsletter" >
+            <div class="newsletter__form">
+                <h2 class="newsletter__title">Newsletter</h2>
+            </div>
+            <div class="newsletter__mail">
+                <label class="newsletter__label">Correo electrónico</label>
+                <input class="input" type="email" placeholder="Ingresa tu correo electrónico">
+            </div>
         </div>
-        <div class="newsletter__mail">
-            <label class="newsletter__label">Correo electrónico</label>
-            <input class="input" type="email" placeholder="Ingresa tu correo electrónico">
-        </div>
-        <div class="newsletter__subscribe">Suscribir</div>
+        <div class="subscribe">
+            <h3 class="subscribe__stitle">Suscribir</h3>
+        </div>  
+    
     </footer>
+    
 </body>
 </html>
