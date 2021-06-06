@@ -150,6 +150,10 @@ input:checked ~ .navigation__container {
     background-position: top;
     height: 25rem;
   }
+
+  .info {
+    margin-bottom: 3rem;
+  }
 }
 @media only screen and (min-width: 992px) {
   .main {
@@ -164,13 +168,14 @@ input:checked ~ .navigation__container {
 
   .main__hero {
     background-position: top;
-    height: 40rem;
+    height: 36.9rem;
   }
 
   .info {
     padding-top: 4rem;
     padding-right: 50rem;
     padding-left: 3rem;
+    margin-bottom: 4rem;
   }
 }
 .newsletter {
@@ -226,7 +231,8 @@ input:checked ~ .navigation__container {
   .footer {
     float: left;
     width: 40%;
-    margin-top: 11.1rem;
+    position: absolute;
+    bottom: 0px;
   }
 
   .subscribe {
@@ -234,6 +240,7 @@ input:checked ~ .navigation__container {
   }
   .subscribe__stitle {
     right: 1px;
+    font-size: 18px;
   }
 }
 /* components */

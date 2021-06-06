@@ -21,6 +21,7 @@
     padding-right: 1.5rem;
     padding-left: 1.5rem;
 
+
     &__title {
     font-family: $oldstandardtt;
     text-transform: uppercase;
@@ -43,6 +44,9 @@
        background-position: top;
        height: 25rem;
     }
+    .info {
+        margin-bottom: 3rem;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -58,13 +62,14 @@
 
     .main__hero {
         background-position: top;
-        height: 40rem;
+        height: 36.9rem;
      }
 
      .info {
         padding-top: 4rem;
         padding-right: 50rem;
         padding-left: 3rem;
+        margin-bottom: 4rem;
      }
 
 }

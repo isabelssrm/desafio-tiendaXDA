@@ -58,7 +58,10 @@
     .footer {
         float: left;
         width: 40%;
-        margin-top: 11.1rem;
+        //margin-top: 11.1rem;
+        position: absolute;
+        bottom: 0px;
+        
         
     }
     .subscribe{
@@ -67,6 +70,7 @@
         
         &__stitle {   
             right: 1px;  
+            font-size: $large;
         }
     }
 }
