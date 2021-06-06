@@ -48,3 +48,25 @@
     position: relative;
 }
 
+@media only screen and (min-width: 768px) {
+    .newsletter {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer {
+        float: left;
+        width: 40%;
+        margin-top: 11.1rem;
+        
+    }
+    .subscribe{
+        
+        width: 8%;
+        
+        &__stitle {   
+            right: 1px;  
+        }
+    }
+}

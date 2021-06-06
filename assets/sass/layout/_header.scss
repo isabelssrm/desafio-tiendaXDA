@@ -66,7 +66,8 @@ max-height: 100%;
     }
 }
 
-@media only screen and (min-width: 992px) {
+
+@media only screen and (min-width: 768px) {
     .collapsible {
         label {
         display: none;
@@ -100,3 +101,4 @@ max-height: 100%;
     }  
 
 }
+

@@ -78,7 +78,7 @@ input:checked ~ .navigation__container {
   color: #646266;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .collapsible label {
     display: none;
   }
@@ -140,6 +140,39 @@ input:checked ~ .navigation__container {
   color: #646266;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 25rem;
+    width: 100%;
+  }
+
+  .main__hero {
+    background-position: top;
+    height: 25rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .main {
+    display: inline;
+  }
+
+  .hero {
+    height: 25rem;
+    width: 60%;
+    float: right;
+  }
+
+  .main__hero {
+    background-position: top;
+    height: 40rem;
+  }
+
+  .info {
+    padding-top: 4rem;
+    padding-right: 50rem;
+    padding-left: 3rem;
+  }
+}
 .newsletter {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
@@ -184,6 +217,25 @@ input:checked ~ .navigation__container {
   position: relative;
 }
 
+@media only screen and (min-width: 768px) {
+  .newsletter {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer {
+    float: left;
+    width: 40%;
+    margin-top: 11.1rem;
+  }
+
+  .subscribe {
+    width: 8%;
+  }
+  .subscribe__stitle {
+    right: 1px;
+  }
+}
 /* components */
 .button {
   background-color: #FFF;

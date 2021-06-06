@@ -33,3 +33,38 @@
      color: $granitegray;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        height: 25rem;
+        width: 100%;
+    }
+    .main__hero {
+       background-position: top;
+       height: 25rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .main {
+        display: inline;
+    }
+    .hero {
+        height: 25rem;
+        width: 60%;
+        float: right;
+    }
+
+    .main__hero {
+        background-position: top;
+        height: 40rem;
+     }
+
+     .info {
+        padding-top: 4rem;
+        padding-right: 50rem;
+        padding-left: 3rem;
+     }
+
+}
